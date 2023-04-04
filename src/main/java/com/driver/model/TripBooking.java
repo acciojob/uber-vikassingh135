@@ -88,6 +88,10 @@ public class TripBooking {
         return tripStatus;
     }
 
+    public TripStatus getStatus() {
+        return tripStatus;
+    }
+
     public void setTripStatus(TripStatus tripStatus) {
         this.tripStatus = tripStatus;
     }
