@@ -92,7 +92,12 @@ public class TripBooking {
         return tripStatus;
     }
 
+
     public void setTripStatus(TripStatus tripStatus) {
+        this.tripStatus = tripStatus;
+    }
+
+    public void setStatus(TripStatus tripStatus) {
         this.tripStatus = tripStatus;
     }
 
